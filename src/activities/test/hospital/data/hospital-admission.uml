@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activitiestesthospital="http:///schemas/activitiestesthospital/_7HjYcHo9Ed6By-E9yT8ihQ/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/activitiestesthospital/_7HjYcHo9Ed6By-E9yT8ihQ/2 hospital-admission.profile.uml#_7HnC0Ho9Ed6By-E9yT8ihQ">
+  <uml:Package xmi:id="_tC6sAHb7Ed6QI7J3sZpjsQ">
+    <elementImport xmi:id="_tD904Hb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_tD904Xb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_tD904nb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <elementImport xmi:id="_tD-b8Hb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_UHQ_YHb-Ed6f8u6UeTTtjA" name="main">
+      <node xmi:type="uml:InitialNode" xmi:id="_yTPNsHo-Ed6By-E9yT8ihQ" name="start" outgoing="_b6IBMHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_3DpBoHo-Ed6By-E9yT8ihQ" name="first diagnosis" outgoing="_dPkxMHo_Ed6By-E9yT8ihQ" incoming="_b6IBMHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_-n4PIHo-Ed6By-E9yT8ihQ" name="d1" outgoing="_euCTQHo_Ed6By-E9yT8ihQ _izZmIHo_Ed6By-E9yT8ihQ" incoming="_dPkxMHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_B0kNkHo_Ed6By-E9yT8ihQ" name="acute therapy" outgoing="_ghOvMHo_Ed6By-E9yT8ihQ" incoming="_euCTQHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_IwEnIHo_Ed6By-E9yT8ihQ" name="m1" outgoing="_knmHoHo_Ed6By-E9yT8ihQ" incoming="_ghOvMHo_Ed6By-E9yT8ihQ _izZmIHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_L3XIMHo_Ed6By-E9yT8ihQ" name="data acquisition" outgoing="_mbVWIHo_Ed6By-E9yT8ihQ" incoming="_knmHoHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_PXqmMHo_Ed6By-E9yT8ihQ" name="normal therapy" outgoing="_oSgTIHo_Ed6By-E9yT8ihQ" incoming="_mbVWIHo_Ed6By-E9yT8ihQ"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_Wvw1IHo_Ed6By-E9yT8ihQ" name="end" incoming="_oSgTIHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_b6IBMHo_Ed6By-E9yT8ihQ" name="1" source="_yTPNsHo-Ed6By-E9yT8ihQ" target="_3DpBoHo-Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_dPkxMHo_Ed6By-E9yT8ihQ" name="2" source="_3DpBoHo-Ed6By-E9yT8ihQ" target="_-n4PIHo-Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_euCTQHo_Ed6By-E9yT8ihQ" name="3" source="_-n4PIHo-Ed6By-E9yT8ihQ" target="_B0kNkHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_ghOvMHo_Ed6By-E9yT8ihQ" name="5" source="_B0kNkHo_Ed6By-E9yT8ihQ" target="_IwEnIHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_izZmIHo_Ed6By-E9yT8ihQ" name="4" source="_-n4PIHo-Ed6By-E9yT8ihQ" target="_IwEnIHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_knmHoHo_Ed6By-E9yT8ihQ" name="6" source="_IwEnIHo_Ed6By-E9yT8ihQ" target="_L3XIMHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_mbVWIHo_Ed6By-E9yT8ihQ" name="7" source="_L3XIMHo_Ed6By-E9yT8ihQ" target="_PXqmMHo_Ed6By-E9yT8ihQ"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_oSgTIHo_Ed6By-E9yT8ihQ" name="8" source="_PXqmMHo_Ed6By-E9yT8ihQ" target="_Wvw1IHo_Ed6By-E9yT8ihQ"/>
+    </packagedElement>
+    <profileApplication xmi:id="__M598HcAEd6f8u6UeTTtjA">
+      <eAnnotations xmi:id="__M7zIHcAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="hospital-admission.profile.uml#_7HnC0Ho9Ed6By-E9yT8ihQ"/>
+      </eAnnotations>
+      <appliedProfile href="hospital-admission.profile.uml#_whUFgHb7Ed6QI7J3sZpjsQ"/>
+    </profileApplication>
+  </uml:Package>
+  <activitiestesthospital:diagnosis xmi:id="_6r9zMHo-Ed6By-E9yT8ihQ" base_Action="_3DpBoHo-Ed6By-E9yT8ihQ"/>
+  <activitiestesthospital:therapy xmi:id="_DejqMHo_Ed6By-E9yT8ihQ" variation="acute" base_Action="_B0kNkHo_Ed6By-E9yT8ihQ"/>
+  <activitiestesthospital:dataacquisition xmi:id="_OGmm8Ho_Ed6By-E9yT8ihQ" base_Action="_L3XIMHo_Ed6By-E9yT8ihQ"/>
+  <activitiestesthospital:therapy xmi:id="_Q6_aIHo_Ed6By-E9yT8ihQ" variation="normal" base_Action="_PXqmMHo_Ed6By-E9yT8ihQ"/>
+</xmi:XMI>

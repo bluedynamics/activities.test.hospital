@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2tools.notation="http://www.eclipse.org/mdt/uml2tools/gmf/notation/ext/2008" xmi:id="_wiRHwHb7Ed6QI7J3sZpjsQ" type="UMLProfile" name="hospital-admission.umlprofile" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_R-et8Hb-Ed6f8u6UeTTtjA" type="2007" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_R-fVAHb-Ed6f8u6UeTTtjA" type="5009"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_R-fVAXb-Ed6f8u6UeTTtjA" type="7005" collapsed="true">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_R-fVAnb-Ed6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_R-fVA3b-Ed6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_R-fVBHb-Ed6f8u6UeTTtjA"/>
+    </children>
+    <element xmi:type="uml:Profile" href="hospital-admission.profile.uml#_whUFgHb7Ed6QI7J3sZpjsQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R-et8Xb-Ed6f8u6UeTTtjA"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_b9EzIHcAEd6f8u6UeTTtjA" type="2006">
+    <children xmi:type="notation:DecorationNode" xmi:id="_b9EzJXcAEd6f8u6UeTTtjA" type="5008"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_b9EzIXcAEd6f8u6UeTTtjA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_b9EzIncAEd6f8u6UeTTtjA" fontName="Sans"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_b9EzI3cAEd6f8u6UeTTtjA"/>
+    <element xmi:type="uml:ElementImport" href="hospital-admission.profile.uml#_b883UHcAEd6f8u6UeTTtjA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b9EzJHcAEd6f8u6UeTTtjA" x="72" y="144"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_c_q4kHcAEd6f8u6UeTTtjA" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c_q4kncAEd6f8u6UeTTtjA" type="5001">
+      <styles xmi:type="notation:FontStyle" xmi:id="_c_wYIHcAEd6f8u6UeTTtjA" bold="true"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c_rfoHcAEd6f8u6UeTTtjA" type="5012"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c_rfoXcAEd6f8u6UeTTtjA" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c_rfoncAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c_rfo3cAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c_rfpHcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_c_rfpXcAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c_rfpncAEd6f8u6UeTTtjA" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c_rfp3cAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c_rfqHcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c_rfqXcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_c_rfqncAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_c_rfq3cAEd6f8u6UeTTtjA" type="7006">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_c_rfrHcAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_c_rfrXcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_c_rfrncAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_c_sGsHcAEd6f8u6UeTTtjA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="hospital-admission.profile.uml#_c_QB0HcAEd6f8u6UeTTtjA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c_q4kXcAEd6f8u6UeTTtjA" x="336" y="60"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_d65KsHcAEd6f8u6UeTTtjA" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_d66Y0HcAEd6f8u6UeTTtjA" type="5001">
+      <styles xmi:type="notation:FontStyle" xmi:id="_d6_RUHcAEd6f8u6UeTTtjA" bold="true"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_d66Y0XcAEd6f8u6UeTTtjA" type="5012"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_d66Y0ncAEd6f8u6UeTTtjA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_lTqIAHcAEd6f8u6UeTTtjA" type="3001">
+        <element xmi:type="uml:Property" href="hospital-admission.profile.uml#_lS89YHcAEd6f8u6UeTTtjA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lTqIAXcAEd6f8u6UeTTtjA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_d66Y03cAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_d66Y1HcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_d66Y1XcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_d66Y1ncAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_d66Y13cAEd6f8u6UeTTtjA" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_d66Y2HcAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_d66Y2XcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_d66Y2ncAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_d66_4HcAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_d66_4XcAEd6f8u6UeTTtjA" type="7006">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_d66_4ncAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_d66_43cAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_d66_5HcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_d66_5XcAEd6f8u6UeTTtjA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="hospital-admission.profile.uml#_d6dF0HcAEd6f8u6UeTTtjA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d65KsXcAEd6f8u6UeTTtjA" x="336" y="144"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_gjgLsHcAEd6f8u6UeTTtjA" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gjgLsncAEd6f8u6UeTTtjA" type="5001">
+      <styles xmi:type="notation:FontStyle" xmi:id="_gjlrQHcAEd6f8u6UeTTtjA" bold="true"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_gjgywHcAEd6f8u6UeTTtjA" type="5012"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gjgywXcAEd6f8u6UeTTtjA" type="7001">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_gjgywncAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gjgyw3cAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gjgyxHcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_gjhZ0HcAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gjhZ0XcAEd6f8u6UeTTtjA" type="7002">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_gjhZ0ncAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gjhZ03cAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gjhZ1HcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_gjhZ1XcAEd6f8u6UeTTtjA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_gjhZ1ncAEd6f8u6UeTTtjA" type="7006">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_gjhZ13cAEd6f8u6UeTTtjA" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_gjhZ2HcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_gjhZ2XcAEd6f8u6UeTTtjA"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_gjhZ2ncAEd6f8u6UeTTtjA"/>
+    </children>
+    <element xmi:type="uml:Stereotype" href="hospital-admission.profile.uml#_gi_1YHcAEd6f8u6UeTTtjA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gjgLsXcAEd6f8u6UeTTtjA" x="335" y="257"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_wiRHwXb7Ed6QI7J3sZpjsQ"/>
+  <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_wiRHwnb7Ed6QI7J3sZpjsQ"/>
+  <element xmi:type="uml:Profile" href="hospital-admission.profile.uml#_whUFgHb7Ed6QI7J3sZpjsQ"/>
+  <edges xmi:type="notation:Edge" xmi:id="_onWGUHcAEd6f8u6UeTTtjA" type="4002" source="_c_q4kHcAEd6f8u6UeTTtjA" target="_b9EzIHcAEd6f8u6UeTTtjA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_onWtYHcAEd6f8u6UeTTtjA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_onWtYXcAEd6f8u6UeTTtjA" y="-15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_onWGUXcAEd6f8u6UeTTtjA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_onWGUncAEd6f8u6UeTTtjA" fontName="Sans"/>
+    <element xmi:type="uml:Extension" href="hospital-admission.profile.uml#_onPYoHcAEd6f8u6UeTTtjA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_onWGU3cAEd6f8u6UeTTtjA" points="[-50, 14, 221, -60]$[-295, 94, -24, 20]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_pG3T4HcAEd6f8u6UeTTtjA" type="4002" source="_d65KsHcAEd6f8u6UeTTtjA" target="_b9EzIHcAEd6f8u6UeTTtjA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pG368HcAEd6f8u6UeTTtjA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pG368XcAEd6f8u6UeTTtjA" y="-15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_pG3T4XcAEd6f8u6UeTTtjA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pG3T4ncAEd6f8u6UeTTtjA" fontName="Sans"/>
+    <element xmi:type="uml:Extension" href="hospital-admission.profile.uml#_pGvYEHcAEd6f8u6UeTTtjA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pG3T43cAEd6f8u6UeTTtjA" points="[-57, -10, 221, 39]$[-235, -48, 43, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_pi6WsHcAEd6f8u6UeTTtjA" type="4002" source="_gjgLsHcAEd6f8u6UeTTtjA" target="_b9EzIHcAEd6f8u6UeTTtjA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pi69wHcAEd6f8u6UeTTtjA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pi69wXcAEd6f8u6UeTTtjA" y="-15"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_pi6WsXcAEd6f8u6UeTTtjA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pi6WsncAEd6f8u6UeTTtjA" fontName="Sans"/>
+    <element xmi:type="uml:Extension" href="hospital-admission.profile.uml#_pizpAHcAEd6f8u6UeTTtjA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pi6Ws3cAEd6f8u6UeTTtjA" points="[-59, -30, 211, 111]$[-260, -134, 10, 7]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pi_PMHcAEd6f8u6UeTTtjA" id="(0.7325581395348837,0.825)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activitiesexecution="http:///schemas/activitiesexecution/_NXiYAHb-Ed6f8u6UeTTtjA/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/activitiesexecution/_NXiYAHb-Ed6f8u6UeTTtjA/0 ../../../../../../activities.runtime/src/activities/runtime/data/activities-execution.profile.uml#_NXoeoHb-Ed6f8u6UeTTtjA">
+  <uml:Profile xmi:id="_whUFgHb7Ed6QI7J3sZpjsQ" name="activities.test.hospital" metaclassReference="_b883UHcAEd6f8u6UeTTtjA">
+    <eAnnotations xmi:id="_wdQ5sHcAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <contents xmi:type="ecore:EPackage" xmi:id="_7HnC0Ho9Ed6By-E9yT8ihQ" name="activitiestesthospital" nsURI="http:///schemas/activitiestesthospital/_7HjYcHo9Ed6By-E9yT8ihQ/2" nsPrefix="activitiestesthospital">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_7HnC0Xo9Ed6By-E9yT8ihQ" name="diagnosis">
+          <eAnnotations xmi:id="_7HnC0no9Ed6By-E9yT8ihQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_c_QB0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7HnC03o9Ed6By-E9yT8ihQ" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_7HnC1Xo9Ed6By-E9yT8ihQ" name="therapy">
+          <eAnnotations xmi:id="_7HnC1no9Ed6By-E9yT8ihQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_d6dF0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_7HnC13o9Ed6By-E9yT8ihQ" name="variation" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7HnC2Xo9Ed6By-E9yT8ihQ" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_7HnC23o9Ed6By-E9yT8ihQ" name="dataacquisition">
+          <eAnnotations xmi:id="_7HnC3Ho9Ed6By-E9yT8ihQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_gi_1YHcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_7HnC3Xo9Ed6By-E9yT8ihQ" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_LA-o8HcBEd6f8u6UeTTtjA" name="activitiestesthospital" nsURI="http:///schemas/activitiestesthospital/_LA-B4HcBEd6f8u6UeTTtjA/1" nsPrefix="activitiestesthospital">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LA-o8XcBEd6f8u6UeTTtjA" name="diagnose">
+          <eAnnotations xmi:id="_LA-o8ncBEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_c_QB0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_LA-o83cBEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LA-o9XcBEd6f8u6UeTTtjA" name="behandlung">
+          <eAnnotations xmi:id="_LA-o9ncBEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_d6dF0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_LA-o93cBEd6f8u6UeTTtjA" name="akut" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_LA-o-XcBEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_LA-o-3cBEd6f8u6UeTTtjA" name="datenerhebung">
+          <eAnnotations xmi:id="_LA-o_HcBEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_gi_1YHcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_LA-o_XcBEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+      <contents xmi:type="ecore:EPackage" xmi:id="_wdSu4HcAEd6f8u6UeTTtjA" name="hospitaladmission" nsURI="http:///schemas/hospitaladmission/_wdPEgHcAEd6f8u6UeTTtjA/0" nsPrefix="hospitaladmission">
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wdSu4XcAEd6f8u6UeTTtjA" name="diagnose">
+          <eAnnotations xmi:id="_wdSu4ncAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_c_QB0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wdSu43cAEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wdSu5XcAEd6f8u6UeTTtjA" name="behandlung">
+          <eAnnotations xmi:id="_wdSu5ncAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_d6dF0HcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_wdSu53cAEd6f8u6UeTTtjA" name="akut" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wdSu6XcAEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_wdSu63cAEd6f8u6UeTTtjA" name="datenerhebung">
+          <eAnnotations xmi:id="_wdSu7HcAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_gi_1YHcAEd6f8u6UeTTtjA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_wdSu7XcAEd6f8u6UeTTtjA" name="base_Action" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Action"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_wiQgsHb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wiQgsXb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <elementImport xmi:id="_wiQgsnb7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+    </elementImport>
+    <elementImport xmi:id="_wiQgs3b7Ed6QI7J3sZpjsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </elementImport>
+    <elementImport xmi:id="_b883UHcAEd6f8u6UeTTtjA">
+      <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Action"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_c_QB0HcAEd6f8u6UeTTtjA" name="diagnosis">
+      <ownedAttribute xmi:id="_onP_sHcAEd6f8u6UeTTtjA" name="base_Action" association="_onPYoHcAEd6f8u6UeTTtjA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Action"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_d6dF0HcAEd6f8u6UeTTtjA" name="therapy">
+      <ownedAttribute xmi:id="_lS89YHcAEd6f8u6UeTTtjA" name="variation">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pGv_IXcAEd6f8u6UeTTtjA" name="base_Action" association="_pGvYEHcAEd6f8u6UeTTtjA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Action"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_gi_1YHcAEd6f8u6UeTTtjA" name="data-acquisition">
+      <ownedAttribute xmi:id="_pi0QEHcAEd6f8u6UeTTtjA" name="base_Action" association="_pizpAHcAEd6f8u6UeTTtjA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Action"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_onPYoHcAEd6f8u6UeTTtjA" name="Action_diagnose" memberEnd="_onPYoXcAEd6f8u6UeTTtjA _onP_sHcAEd6f8u6UeTTtjA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_onPYoXcAEd6f8u6UeTTtjA" name="extension_diagnose" type="_c_QB0HcAEd6f8u6UeTTtjA" aggregation="composite" association="_onPYoHcAEd6f8u6UeTTtjA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_pGvYEHcAEd6f8u6UeTTtjA" name="Action_behandlung" memberEnd="_pGv_IHcAEd6f8u6UeTTtjA _pGv_IXcAEd6f8u6UeTTtjA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_pGv_IHcAEd6f8u6UeTTtjA" name="extension_behandlung" type="_d6dF0HcAEd6f8u6UeTTtjA" aggregation="composite" association="_pGvYEHcAEd6f8u6UeTTtjA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Extension" xmi:id="_pizpAHcAEd6f8u6UeTTtjA" name="Action_datenerhebung" memberEnd="_pizpAXcAEd6f8u6UeTTtjA _pi0QEHcAEd6f8u6UeTTtjA">
+      <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_pizpAXcAEd6f8u6UeTTtjA" name="extension_datenerhebung" type="_gi_1YHcAEd6f8u6UeTTtjA" aggregation="composite" association="_pizpAHcAEd6f8u6UeTTtjA"/>
+    </packagedElement>
+    <profileApplication xmi:id="_8J7VIHcAEd6f8u6UeTTtjA">
+      <eAnnotations xmi:id="_8KKlsHcAEd6f8u6UeTTtjA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../../../../../activities.runtime/src/activities/runtime/data/activities-execution.profile.uml#_NXoeoHb-Ed6f8u6UeTTtjA"/>
+      </eAnnotations>
+      <appliedProfile href="../../../../../../activities.runtime/src/activities/runtime/data/activities-execution.profile.uml#_k4YooXb9Ed6f8u6UeTTtjA"/>
+    </profileApplication>
+  </uml:Profile>
+  <activitiesexecution:execution xmi:id="_0Sj50HcMEd6f8u6UeTTtjA" base_Profile="_whUFgHb7Ed6QI7J3sZpjsQ"/>
+</xmi:XMI>

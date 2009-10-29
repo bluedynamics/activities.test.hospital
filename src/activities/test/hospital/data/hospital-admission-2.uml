@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_TDIV4HpAEd6By-E9yT8ihQ">
+  <elementImport xmi:id="_TEckgHpAEd6By-E9yT8ihQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_TEdLkHpAEd6By-E9yT8ihQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_TEdLkXpAEd6By-E9yT8ihQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_TEdLknpAEd6By-E9yT8ihQ">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_WKkA4HpAEd6By-E9yT8ihQ" name="main">
+    <node xmi:type="uml:InitialNode" xmi:id="_WKkA4XpAEd6By-E9yT8ihQ" name="start" outgoing="_WKkA6XpAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WKkA4npAEd6By-E9yT8ihQ" name="first diagnosis" outgoing="_WKkA6npAEd6By-E9yT8ihQ" incoming="_WKkA6XpAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_WKkA43pAEd6By-E9yT8ihQ" name="d1" outgoing="_WKkA63pAEd6By-E9yT8ihQ _WKkA7XpAEd6By-E9yT8ihQ" incoming="_WKkA6npAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WKkA5HpAEd6By-E9yT8ihQ" name="acute therapy" outgoing="_WKkA7HpAEd6By-E9yT8ihQ" incoming="_WKkA63pAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_WKkA5XpAEd6By-E9yT8ihQ" name="m1" outgoing="_WKkA7npAEd6By-E9yT8ihQ" incoming="_WKkA7HpAEd6By-E9yT8ihQ _WKkA7XpAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WKkA5npAEd6By-E9yT8ihQ" name="data acquisition" outgoing="_WKkA73pAEd6By-E9yT8ihQ" incoming="_WKkA7npAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WKkA53pAEd6By-E9yT8ihQ" name="normal therapy" outgoing="_WKkA8HpAEd6By-E9yT8ihQ" incoming="_CI2woHpBEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_WKkA6HpAEd6By-E9yT8ihQ" name="end" incoming="_JzqgMHpBEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_x06oEHpAEd6By-E9yT8ihQ" name="d2" outgoing="_EQ5bMHpBEd6By-E9yT8ihQ _JzqgMHpBEd6By-E9yT8ihQ" incoming="_WKkA8HpAEd6By-E9yT8ihQ"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_1IG3IHpAEd6By-E9yT8ihQ" name="m2" outgoing="_CI2woHpBEd6By-E9yT8ihQ" incoming="_WKkA73pAEd6By-E9yT8ihQ _EQ5bMHpBEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA6XpAEd6By-E9yT8ihQ" name="1" source="_WKkA4XpAEd6By-E9yT8ihQ" target="_WKkA4npAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA6npAEd6By-E9yT8ihQ" name="2" source="_WKkA4npAEd6By-E9yT8ihQ" target="_WKkA43pAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA63pAEd6By-E9yT8ihQ" name="3" source="_WKkA43pAEd6By-E9yT8ihQ" target="_WKkA5HpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA7HpAEd6By-E9yT8ihQ" name="5" source="_WKkA5HpAEd6By-E9yT8ihQ" target="_WKkA5XpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA7XpAEd6By-E9yT8ihQ" name="4" source="_WKkA43pAEd6By-E9yT8ihQ" target="_WKkA5XpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA7npAEd6By-E9yT8ihQ" name="6" source="_WKkA5XpAEd6By-E9yT8ihQ" target="_WKkA5npAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA73pAEd6By-E9yT8ihQ" name="7" source="_WKkA5npAEd6By-E9yT8ihQ" target="_1IG3IHpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_WKkA8HpAEd6By-E9yT8ihQ" name="8" source="_WKkA53pAEd6By-E9yT8ihQ" target="_x06oEHpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_CI2woHpBEd6By-E9yT8ihQ" name="9" source="_1IG3IHpAEd6By-E9yT8ihQ" target="_WKkA53pAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_EQ5bMHpBEd6By-E9yT8ihQ" name="10" source="_x06oEHpAEd6By-E9yT8ihQ" target="_1IG3IHpAEd6By-E9yT8ihQ"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_JzqgMHpBEd6By-E9yT8ihQ" name="11" source="_x06oEHpAEd6By-E9yT8ihQ" target="_WKkA6HpAEd6By-E9yT8ihQ"/>
+  </packagedElement>
+</uml:Package>
